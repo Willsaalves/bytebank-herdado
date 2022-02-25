@@ -4,7 +4,7 @@ public class TesteFuncionario {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Funcionario Will = new Funcionario();
+		Gerente Will = new Gerente();
 		Will.setNome("Willian de sa");
 		Will.setCpf("234556893-3");
 		Will.setSalario(3583.00);
@@ -30,6 +30,7 @@ public class TesteFuncionario {
 		 boolean autenticou = g1.autentica(2222);
 		 
 		 System.out.println(autenticou);
+		 System.out.println(g1.getBonificacao());
 	}
 
 }
